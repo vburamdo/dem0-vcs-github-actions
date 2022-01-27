@@ -7,6 +7,13 @@ terraform {
       version = "~> 3.0"
     }
   }
+  cloud {
+   organization = "buramdododdi"
+
+   workspaces {
+      name = "dem0-vcs-github-actions"
+    }
+  }
 }
 
 # Provider Block
