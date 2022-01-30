@@ -1,4 +1,3 @@
 # github-actions-template
 
-
-uat
+PROD
